@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="author" content="Christian Pujol">
+
+  <!-- <meta name="description" content="Portfodivo of my freeCodeCamp Projects"> -->
+
+  <title>naga.no | fCC | Wikipedia</title>
+
+  <script src="https://use.fontawesome.com/a0e523aa26.js"></script>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- script for loading Nav bar -->
+  <script src="getWikiPages.js">
+  </script>
+
+
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="container row page-header no-bottom-border">
+    <div class="col-md-4"></div>
+    <div class="padded well col-md-4 rounded">
+      <h3> Wikipedia !!</h3>
+      <a class="btn btn-lg btn-primary rounded" href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">
+          Get a random page
+          </a>
+      <h3>Or search for one</h3>
+      <form id="search-form ">
+        <div class="form-group">
+          <div class="input-group">
+            <span class="input-group-btn">
+              <button id="search-button" class="btn btn-primary" type="submit">
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </button>
+            </span>
+            <input type="text" id="search-text" placeholder="Search Wikipedia" class="form-control">
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div id="result"></div>
+  <footer>
+    <small>
+    by
+    <a class="rounded" href="https://no.linkedin.com/in/christianpujol" target="_blank">
+      Christian Pujol 
+    </a>
+     for <a href="https://freecodecamp">freeCodeCamp</a>.</br>
+     You will find the source code on
+     <a  href="https://github.com/pujolchr/fCC/tree/master/wiki" target="_blank">GitHub</a>
+    </small>
+  </footer>
+</body>
+
+</html>
