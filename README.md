@@ -14,4 +14,4 @@
 
 ## 
  * code source: https://github.com/pujolchr/fCC-wiki
- * live: https://pujolchr.github.io/fCC-wiki
+ * live: https://pujolchr.github.io/fCC-wiki/
